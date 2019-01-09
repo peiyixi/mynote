@@ -1,0 +1,20 @@
+文档注释：主要是由“@”以及标记类型和专用注释构成，主要说明程序的版本、作者、功能、主要参数、主要函数等等（写在类外面）
+@author			作者
+@version		版本
+@param			函数功能
+@return			返回值
+@exception		异常
+使用方法： Javadoc （-author/-version...） 源文件.java
+
+eclipse常用快捷键
+ctrl+shift+f			代码格式化
+
+ctrl+shift+c或者ctrl+/			单行注释
+ctrl+shift+/					多行注释
+ctrl+shift+\					取消多行注释
+ctrl+d							删除当前行
+ctrl+f							查找
+ctrl+shift+o					实现包的组织，导入没有引用的包，去除没有用的包（organization）
+ctrl+shift+s					保存所有文件
+Alt+/							自动查找补全
+

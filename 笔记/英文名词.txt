@@ -1,0 +1,28 @@
+data warehouse
+database configuration assistant
+
+
+Java部分
+JDK		Java Develepment Kit
+JRE		Java Runtime Environment
+JVM		Java Virtual Machine
+OO		Object Oriented							将所有问题抽象为对象（熟悉、行为）
+OOP		Object Oriented Programing				抽象、封装、继承、多态
+OOA		Object Oriented Analysis				用面向对象思想去分析问题，关注对象之间的关系以及对象本身的属性、行为
+JDBC  Java DataBase Connectivity,java数据库连接
+
+
+RDBMS Relational Database Management System  关系型数据库
+ETL  Extract-Transform-Load     抽取(extract)、交互转换(transform)、加载(load)
+
+
+
+
+hadoo部分
+HBase 基于HDFS的NoSQL数据库       NoSQL:Redis
+Hive 基于HDFS的数据仓库
+MapReduce  ：Java
+Spark      ：Scala       只有数据计算没有数据存储
+SQL -> MapReduce/Spark
+sqoop 用于在Hadoop(Hive)与传统的数据库(mysql)间进行数据的传递
+flume海量日志采集、聚合和传输的系统

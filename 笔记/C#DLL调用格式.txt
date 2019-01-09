@@ -1,0 +1,23 @@
+C#.Net调用基本格式：
+[DLLImport(“DLL文件路径”)]
+CharSet 指示用在入口点中的字符集，如：CharSet=CharSet.Ansi；
+
+SetLastError 指示方法是否保留 Win32"上一错误"，如：SetLastError=true；
+
+ExactSpelling 指示 EntryPoint 是否必须与指示的入口点的拼写完全匹配，如：ExactSpelling=false；
+
+PreserveSig指示方法的签名应当被保留还是被转换， 如：PreserveSig=true；
+
+CallingConvention指示入口点的调用约定， 如：CallingConvention=CallingConvention.Winapi；
+[AttributeUsage(AttributeTargets.Method)]
+public class DllImportAttribute: System.Attribute
+{
+public DllImportAttribute(string dllName) {…} //定位参数为dllName
+public CallingConvention CallingConvention; //入口点调用约定
+public CharSet CharSet;                                   //入口点采用的字符接
+public string EntryPoint;  //入口点名称
+public bool ExactSpelling;   //是否必须与指示的入口点拼写完全一致，默认false
+public bool PreserveSig;  //方法的签名是被保留还是被转换
+public bool SetLastError;  //FindLastError方法的返回值保存在这里
+public string Value { get {…} }
+}

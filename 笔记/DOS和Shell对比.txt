@@ -1,0 +1,37 @@
+
+		WINDOWS                                                     LINUX
+		
+		启动DOS：Win+r 输入cmd
+		dir ：directory 列出当前目录下                              ls 或 ll
+		md ：make directory                                         mkdir
+		rd：remove directory 删除目录								rmdir									
+		del：delete 删除文件										rm			
+		cd：change directory										cd									
+				cd..												
+				cd\																	
+				盘符+：																	
+		cls：Clean screen		清屏								clear /ctrl + l						
+																	pwd 显示当前目录
+		exit：退出DOS界面																			
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
